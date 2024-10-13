@@ -1,0 +1,1183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: saddlebrown;
+    width:100%;
+    height:60px;
+    position:fixed;
+   
+  text-align: center;
+    z-index: 99;
+    /* float: left; */
+    cursor: pointer;
+ opacity: 0.9;
+}
+.imgheader{
+    float: left;
+    margin-left: 200px;
+    width: 120px;
+    height: 65px;
+    display:inline-block ;
+}
+.list{
+float: right;
+margin-right:200px;
+line-height: 59px;
+
+}
+
+.list li{
+    color:peachpuff;
+    list-style:none;
+    display:inline-block;
+    margin-left:35px;
+    text-transform: capitalize;
+    font:bold 25px Arial, Helvetica, sans-serif;
+  
+}
+.list li:hover{
+
+    border-bottom:3px solid hsl(28, 87%, 67%)
+}
+.header5{
+
+
+    width: 100%;
+    height: 70px;
+    background-color:hsl(25, 76%, 31%,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    margin-top: 60px;
+    z-index: 90;
+}
+.header5:hover{
+    opacity: 1;
+}
+.list15 i{
+    color: #fff;
+    margin-left: 50px;
+    margin-bottom:-30px;
+    display:inline-block ;
+    line-height: 70px;
+    font-size: 25px;
+
+}
+.list15 input{
+
+    margin-left: 560px;
+   border-radius: 9px;
+   width: 410px;
+   height: 40px;
+   border: none;
+   opacity:1;
+   background-color: #fff;
+}
+.list15 input:hover{
+
+    opacity:0.5;
+  
+}
+.list15 span{
+    color: wheat;
+    text-transform:unset;
+    font-size: 15px;
+}
+/*-------------------imgface--------------------------------------*/
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  
+    background-image:url(../Image/mike-kenneally-TD4DBagg2wE-unsplash.jpg) ;
+  
+}
+.ovefly{
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 0, 0, 0.4);
+   
+}
+.content{
+    width: 55%;
+    height:150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: azure;
+    
+    text-align: center;
+  
+}
+.titel{
+    font-size: 55px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+margin: auto;
+
+}
+.ptitel{
+    font-size: 28px;
+    margin-bottom:20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.butn{
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+
+}
+.bu2{
+
+    background-color: sienna;
+}
+.butn:hover{
+    opacity: 0.5;
+}
+span{
+    color: peachpuff;
+}
+
+/*!-----------------site-parent-------------------------*/
+.site-border{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:saddlebrown ;
+    margin-top: 100px;
+    font-family: sans-serif;
+  
+}
+
+.site-parent{
+   background-color: bisque;
+   width: 90%;
+   height: 300px;
+   margin-left: 70px;
+   border-left:4px solid peru ;
+   border-right:4px solid peru ;
+   position: relative;
+   margin-top: 50px;
+}
+.site-parent::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(216, 131, 21, 0.6);
+   
+    transition: 5s;
+   opacity: 1;
+}
+.site-parent:hover::after{
+    width: 100%;
+    height: 100%;
+   opacity: 0;
+}
+.site-parent::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    bottom:  0;
+    left: 0;
+    background-color: rgba(216, 131, 21, 0.6);
+  
+    transition: 5s;
+   opacity: 1;
+}
+.site-parent:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+   
+}
+.site1{
+    width: 320px;
+    height: 200px;
+    background: url(../Image/Turkish\ or\ Greek\ coffee.jpeg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 5px;
+    outline: 1px solid black;
+}
+.sitel-overlay::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.9);
+    transition: 1s;
+}
+.tist2{
+    position: relative;
+    z-index: 50;
+}
+.sitel-overlay:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.sitel-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.5);
+    color: #fff;
+}
+ ol li{
+    list-style: none;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sitel-overlay i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.site-but{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(163, 163, 152, 0);
+    border-radius: 10px;
+    border: none;
+    color:rgb(214, 120, 27);
+    font-weight: bold;
+}
+.site-cercel{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: saddlebrown;
+    margin-top: 220px;
+   margin-left:160px  ;
+}
+/*!-----------------site-parent0-------------------------*/
+/*-------------------------------photo-item-----------------------------------------*/
+.photo-coffee{
+    margin-top: -220px;
+} 
+.photo1{
+    width: 320px;
+    height: 260px;
+    background-image: url(../Image/44.png);
+    background-position: -10px;
+background-size: cover;
+background-repeat: no-repeat;
+float: left;
+position: relative;
+margin-left: 70px;
+margin-top: 50px;
+}
+.photo2{
+    width: 320px;
+    height: 260px;
+    background-image: url(../Image/99.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: -20px  ;
+float: left;
+position: relative;
+margin-left: 70px;
+margin-top: 50px;
+
+}
+.photo3{
+    width: 320px;
+    height: 260px;
+    background-image: url(../Image/77.png);
+background-size: cover;
+background-repeat: no-repeat;
+float: left;
+position: relative;
+margin-left: 70px;
+margin-top: 50px;
+}
+.photo4{
+
+    width: 320px;
+    height: 260px;
+    background-image: url(../Image/pablo-merchan-montes-_Tw4vCs9C-8-unsplash-removebg-preview.png);
+background-size: cover;
+background-position: -10px;
+background-repeat: no-repeat;
+float: left;
+position: relative;
+margin-left: 70px;
+margin-top: 50px;
+}
+.photo5{
+    width: 320px;
+    height: 260px;
+    background-image: url(../Image/55.png);
+    background-position: -10px;
+background-size: cover;
+background-repeat: no-repeat;
+float: left;
+position: relative;
+margin-left: 70px;
+margin-top: 50px;
+}
+.photo6{
+    width: 320px;
+    height: 260px;
+    background-image: url(../Image/66.png);
+background-size: cover;
+background-repeat: no-repeat;
+float: left;
+position: relative;
+margin-left: 70px;
+margin-top: 50px;
+}
+.photo1 i , .photo2 i , .photo3 i, .photo4 i , .photo5 i , .photo6 i {
+
+    font-size: 25px;
+    outline: 1px solid slategrey;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-top: -30px;
+    padding: 5px;
+    margin-left: -25px;
+    background-color: #ffffff;
+    color: silver;
+    cursor:pointer;
+
+}
+.photo1  p i , .photo2 p i , .photo3  p i, .photo4 p  i , .photo5 p i , .photo6 p  i {
+    font-size: 25px;
+    border: 1px solid rgb(112, 128, 144 ,0.0);
+    background-color: rgb(0, 255, 255 ,0.0);
+    text-align: center;
+    margin-top: -30px;
+    padding: 7px;
+    margin-left: -28px;
+    color: rgb(188, 121, 33);
+    cursor:pointer;
+    margin-top: 80px;
+    text-align: center;
+}
+.icon:hover{
+    color: #ff0f0f;
+}
+.icon2{
+    border:  2px solid red;
+}
+.photo1 h4 ,.photo2 h4 , .photo3 h4 , .photo4 h4 , .photo5 h4 , .photo6 h4 {
+    background-color: green;
+    border: 0;
+    border-radius: 25px;
+    width: 60px;
+    font-size: 18px;
+    text-align: center;
+    color: blanchedalmond;
+    float: left;
+    margin-top: -22px;
+    margin-left: 250px;
+}
+.photo3 h4 , .photo4 h4{
+    background-color: #cf2323;
+}
+.photo1 h5 ,.photo2 h5 , .photo3 h5 , .photo4 h5 , .photo5 h5 , .photo6 h5 {
+    text-align: center;
+    font-size: 30px;
+    color: #cf2323;
+    margin-top: -60px;
+    padding: 90px;
+}
+.photo1  h5 p ,.photo2  h5 p ,.photo3  h5 p ,.photo4  h5 p,.photo5  h5 p ,.photo6  h5 p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: chocolate;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.photo1 p ,.photo2 p , .photo3 p , .photo4 p , .photo5 p , .photo6 p  {
+    text-align: center;
+    margin-top: -80px;
+    padding: -150px;
+}
+.photo-overley{
+    background-color:rgb(188, 201, 214,0.5);
+    width: 350px;
+    height: 320px;
+    opacity: 0;
+    margin-top: -30px;
+   
+    /* border-radius: 20px;
+    margin-left: -20px; */
+    border-radius: 20px;
+    margin-left: -20px;
+}
+ 
+.photo1:hover .photo-overley ,.photo2:hover .photo-overley ,.photo3:hover .photo-overley ,.photo4:hover .photo-overley ,.photo5:hover .photo-overley ,.photo6:hover .photo-overley  {
+
+    opacity: 1;
+    transform: 1s;
+    
+}
+
+.content-photo1 , .content-photo2 {
+margin-top: 300px;
+    margin-left: 170px;
+    margin-right: 140px;
+    line-height: -200px;
+  
+
+}
+
+
+.photo-border{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color:saddlebrown ;
+    margin-top: 100px;
+    font-family: sans-serif;
+    border-radius: 30%;
+ 
+}
+/**!--------------------------...----------------------------------------/
+/*-----------------------special1----------------------------*/
+.content-special{
+
+    width: 100%;
+    height: 500px;
+    
+    /* margin-left: 50px; */
+    margin-top: 720px;
+
+}
+.margin-special{
+
+    margin-left: 50px;
+}
+.special1{
+    width: 320px;
+    height: 150px;
+   background-color:rgb(126, 93, 63);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-top: 5px solid peru;
+
+}
+.special1 h5{
+    float: left;
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-left: 10px;
+}
+.special1 i{
+    float: left;
+    font-size: 25px;
+    margin-top:9px ;
+    margin-left: 9px;
+    /* color: cornflowerblue; */
+    color: peru;
+}
+.special1 p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.speciall-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.5);
+    color: #fff;
+
+}
+
+.speciall-overlay::after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.9);
+    transition: 1s;
+}
+.titel1{
+    position: relative;
+    z-index: 40;
+}
+.speciall-overlay:hover::after{
+    width: 100%;
+    height: 100%;
+}
+/**!--------------------------Choose-Us--------------------------------------*/
+.Choose-Us{
+    width: 100%;
+    height: 800px;
+    background-color: bisque;
+}
+.choose-p {
+    margin-left:150px;
+    margin-top: 100px;
+  
+   
+}
+
+.choose-p p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.choose-p p span{
+    color:brown;
+}
+.choose-p p{
+    color: rgb(0, 0, 0);
+}
+.choose-p ul li {
+
+    margin-top: -10px;
+   
+    color: peru;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.choose-p ul{
+margin-top: 35px;
+}
+.cerce2{
+    background-position: -0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Image/Lina\ Osadchaya\ \(@lina_osd\)\ •\ Instagram\ photos\ and\ videos.jpeg);
+    float: left;
+    margin-top: -220px;
+    margin-left: 850px;
+border: 9px solid peru;
+/* outline: 9px solid saddlebrown; */
+border-radius: 50%;
+width: 400px;
+height: 400px;
+}
+.cerece0{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: peru;
+    float: left;
+    margin-left: 15px;
+}
+.cerece0:hover{
+    background-color: saddlebrown;
+}
+.cerece-parent{
+    margin-top: 200px;
+  
+margin-left: 998px;
+}
+ .choose-border{
+    color: saddlebrown;
+  font-size: 40px;
+  font-weight: bold;
+padding-top: 170px;
+
+}
+.border-choose{
+    width: 190px;
+    height: 5px;
+    border-radius: 35%;
+    margin-left: 20px;
+    background-color: sienna;
+    margin-top: 5px;
+}
+/**!--------------------------Choose-Us--------------------------------------*/
+/**?--------------special1------------------------------------*/
+.fexced {
+    width: 100%;
+    height: 550px;
+    background-attachment:fixed ;
+    background-image:url(../Image/Branca\ xícara\ de\ café\ quente\ com\ fumaça\ com\ grãos\ de\ café\ e\ em\ fundo\ preto\ _\ Foto\ Premium.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+.i{
+    font-size: 40px;
+    padding-top: 260px;
+    text-align: center;
+    margin-left: 50px;
+}
+.i i {
+    /* color: #74C0FC; ; */
+    color: peru; ;
+}
+.i i:hover {
+    color: red; ;
+    cursor: pointer;
+}
+.i1  {
+    color: #ffffff;
+    float: left;
+    margin-left:  250px;
+}
+.i2 {
+    color: #ffffff;
+    float: left;
+    margin-left:  200px;
+}
+.i3  {
+    color: #ffffff;
+    float: left;
+    margin-left:200px;  
+}
+.i4 {
+    color: #ffffff;
+    float: right;
+    margin-right:  310px;
+}
+
+/*---------------------------card--------------------------------*/
+h1{
+
+    text-align: center;
+    color: rgb(162, 82, 25);
+    letter-spacing: 2px;
+    font-weight:bold  ;
+    font-family: sans-serif;
+    font-size: 70px;
+}
+.border{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(122, 81, 45);
+    border-radius:25% ;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.back-7{
+    width: 100%;
+    height: 600px;
+background-image: url(../Image/What\ Makes\ Milwaukee\ A\ Great\ Place\ for\ Coffee_.jpeg);
+background-size: cover;
+background-attachment: fixed;
+  margin-top: 200px;
+
+}
+.card{
+    width: 60%;
+    margin: auto;
+}
+.box1 , .box2 , .box3{
+    width: 270px;
+    height: 380px;
+    background-image: url(../Image/IMG-20240927-WA0032.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color:#fff;
+    float:left;
+    margin-left: 37px;
+
+}
+.box2{
+    background-image: url(../Image/IMG-20240927-WA0032.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(../Image/IMG-20240927-WA0032.jpg);
+    background-size: cover;
+}
+
+.over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.3);
+}
+.over h3{
+    color: rgb(183, 98, 14);
+    font-size: 25px;
+
+}
+.cercel h2{
+    color: rgb(183, 98, 14);
+}
+.cercel{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid sandybrown;
+    margin: 10px auto;
+}
+ul li{
+    line-height:35px;
+    list-style:none;
+    margin-bottom: 10px;
+    color: sandybrown;
+    font-size:18px
+}
+.butncard{
+    width: 150px;
+    height: 40px;
+    background-color: burlywood;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+.box1::after{
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(0, 0, 0,0.6);
+transition: 2s;
+}
+.box1:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.box2::after{
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(0, 0, 0,0.6);
+transition: 2s;
+}
+.box2:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.box3::after{
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(0, 0, 0,0.6);
+transition: 2s;
+}
+.box3:hover::after{
+    width: 100%;
+    height: 100%;
+}
+/*---------------------------card0--------------------------------*/
+/*--------------------Svents-perant---------------------------------------*/
+.Svents-perant{
+    width: 100%;
+height: 500px;
+background-image: url(../Image/mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+background-size: cover;
+background-attachment: fixed;
+    margin-top: 180px;
+background-position: -20px;
+   
+}
+.oveley-svents{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+.svents-1 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.svents-1 h3 {
+    margin-left: 400px;
+    margin-top: -125px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.svents-1 h3 span {
+    color: peru;
+    font-size: 18px;
+}
+.svents-1 p {
+color:peachpuff;
+    margin-left: 390px;
+    margin-top: 20px;
+    
+}
+.svents-2 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 880px;
+}
+.svents-2 {
+    margin-top: -57px;
+}
+
+.svents-2 h3 {
+    margin-left: 68%;
+    margin-top: -133px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.svents-2 h3 span {
+    color: peru;
+    font-size: 18px;
+}
+.svents-2 p {
+    color:peachpuff;
+    margin-left: 68%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+/*!-- -----------cofee beans---------------- --*/
+.contenerbeans{
+
+width: 80%;
+margin: auto;
+}
+.beans-item{
+    float:left;
+    background-color: blanchedalmond;
+    width: 25%;
+    padding: 14px  14px;
+    /* margin-left: 149px ; */
+    text-align: center;
+    margin-left: 66px;
+    position: relative; /*bab*/
+    cursor: pointer;
+}
+.ceanter{
+   
+   margin: 0 60px 0 115px;
+}
+.beans-img{
+       width: 90%;
+    margin: auto;
+    position: relative; /*parent*/
+  
+}
+.beans-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.peans-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.7);
+    visibility: hidden; /*الاخفاء*/
+   opacity: 0;
+    transition: 1s; /* time */ 
+}
+.beans-item:hover .peans-overlay {
+    visibility: visible;
+    opacity: 3;
+}
+.peans-overlay a{
+    font-size: 25px;
+    display: block; /*bottom*/
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+   background-color:peru;
+   color: #ffffff;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.peans-overlay a i{
+    line-height: 40px;
+}
+.beans-info{
+    color: sienna;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.beans-info p{
+    color: burlywood;
+}
+.border-h2{
+    text-align: center;
+    color:  saddlebrown;
+    letter-spacing: 2px;
+    font:bold 60px sans-serif
+}
+.beans-h:hover{
+    color: #000000;
+}
+.border-beans{
+    width: 250px;
+    height: 5px;
+    background-color: rgb(176, 122, 51);
+    border-radius:25% ;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.beans-beak{
+    width: 100%;
+    height: 450px;
+  background-color: rgb(239, 203, 148);
+  margin-top: 200px;
+  /* margin-top: -1px; */
+
+}
+.beans-item::after{ /*start*/
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(0, 0, 0,0.3);
+transition: 2s;
+
+}
+.beans-item:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.beans-item:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.beans-item::before{ /*start*/
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right:0 ;
+    background-color: rgba(0, 0 ,0, 0.3);
+transition: 2s;
+}
+/*!-- -----------cofee beans---------------- --*/
+/**! ---------------------devices-perant----------------------------------*/
+.devices-perant{
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+.device1 img{
+    border-radius: 15px;
+    width: 220px;
+    height: 180px;
+    margin-top: 20px;
+}
+.device1{
+    margin-left: 150px;
+    margin-top: 40px;
+    position: relative;
+    width: 320px;
+}
+.devicel-border{
+    width: 320px;
+    height: 5px;
+    background-color: saddlebrown;
+    margin-top: 20px;
+
+}
+.device2 img{
+    border-radius: 15px;
+    width: 220px;
+    height: 180px;
+    margin-top: 20px;
+}
+.device2{
+    margin-left: 600px;
+    margin-top: -445px;
+    position: relative;
+    width: 320px;
+}
+.device3 img{
+    border-radius: 15px;
+    width: 220px;
+    height: 180px;
+    margin-top: 20px;
+}
+.device3{
+    margin-left: 70%;
+   margin-top: -445px;
+   position: relative;
+   width: 320px;
+}
+small{
+    color: peru;
+}
+.b3{
+   background-color: rgb(116, 243, 201,0);
+    color: maroon;
+    border: none;
+    cursor: pointer;
+}
+.device1::after{ 
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(139, 69, 19,0.4);
+   
+transition: 1s;
+
+}
+.device1:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.device2::after{ 
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(139, 69, 19,0.4);
+transition: 1s;
+
+}
+.device2:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.device3::after{ 
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: rgba(139, 69, 19,0.4);
+transition: 1s;
+
+}
+.device3:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.border-devices{
+    text-align: center;
+    font-size: 35px;
+    color: saddlebrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.border-devicer{
+    width: 200px;
+    height: 5px;
+    background-color: peru;
+    margin: 10px auto;
+    border-radius: 25%;
+}
+.device3 h2 ,.device1 h2 ,.device2 h2{
+    color: sienna;
+}
+/**!---------------------------------------------------------------------*/
+/*------------------------------foter-coffe----------------------------------------------*/
+.foter-coffe{
+    width: 100%;
+    height: 450px;
+
+    background-image:url(../Image/coffee\ beans\ on\ wooden\ background.jpeg);
+    background-size: cover;
+  background-position: 30px;
+    margin-top: 700px;
+}
+.foter-icone{
+    text-align: center;
+}
+.foter-icone1{
+    width: 900px;
+    height: 200px;
+    font-size: 28px;
+    display:inline-block ; /*bottom*/
+    margin: auto;
+    border-radius: 50%;
+    margin-top: -30px;
+    position: relative;
+    padding-right: -5px;
+}
+.ic5 ,.ic4 ,.ic3 ,.ic2 ,.ic1 ,.ic6{
+    background-color:peru;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px auto;
+    margin-left: 20px;
+    color: #fff;
+    padding-top: 5px;
+
+}
+.foter-icone img{
+    width: 300px;
+    height: 250px;
+
+}
+.foter-icone h2{
+    margin-top: 25px;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.ic5:hover ,.ic4:hover ,.ic3:hover ,.ic2:hover ,.ic1:hover ,.ic6:hover{
+    background-color: #cf2323;
+    
+}
+.foter-icone1 i::after{ 
+    content: "";
+    width:100% ;
+    height: 0;
+    position: absolute;
+    bottom:  0;
+    left:0 ;
+    outline: 3px solid rgb(79, 35, 3);
+    border-radius: 50%;
+   padding-left: -3px ;
+    padding-bottom: -3px;
+    text-align: center; 
+ cursor: pointer;
+transition: 1s;
+opacity: 0;
+
+}
+.foter-icone1 i:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
