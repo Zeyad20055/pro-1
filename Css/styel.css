@@ -719,6 +719,7 @@ background-attachment: fixed;
     height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0,0.3);
+     z-index:30;
 }
 .over h3{
     color: rgb(183, 98, 14);
